@@ -82,7 +82,7 @@ int main(void)
     // this formula avoid negative rest so the result will always be a number between 0 - 6 :
     int index = (total_days % 7 + 7) % 7;
 
-    printf("The day corresponding to the date %d/%d/%d is: %s\n", day, month, year, days[index]);
+    printf("The day corresponding to the date %d/%d/%d is: %s\n", month, day, year, days[index]);
 
     return 0;
 }
